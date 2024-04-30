@@ -23,7 +23,7 @@ const SwiperFrame = (props) => {
           className={
             screenSize == "390"
               ? "text-[14px] leading-[22px] px-4 opacity-80"
-              : "text-[12px] leading-[18px] opacity-80"
+              : "text-[14px] leading-[18px] opacity-80"
           }
         >
           {props.content}

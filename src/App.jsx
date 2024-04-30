@@ -6,17 +6,22 @@ import ScreenFour from './screen-four/ScreenFour';
 import ScreenOne from './screen-one/ScreenOne';
 import ScreenThree from './screen-three/ScreenThree';
 import ScreenTwo from './screen-two/ScreenTwo';
+import Footer from './footer/Footer';
+import Routers from './Routes/Routes';
 
 const App = () => {
   return (
     <>
-    <ScreenOne />
+    {/* <ScreenOne />
     <ScreenTwo />
     <ScreenThree />
    <ScreenFour />
      <ScreenFive />
     <ScreenSix />
     <FAQ />
+    <Footer/> */}
+    <Routers/>
+    {/* <Home/> */}
     </>
   );
 };

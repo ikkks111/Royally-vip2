@@ -8,9 +8,9 @@ const ScreenTwo = () => {
     return (
         <div className='md:flex items-center justify-between gap-1 md:ps-[100px] screentwo'>
             <div className='md:w-3/4 2xl:w-1/2 max-[600px]:w-full max-[600]:px-3 pl-[10px]'>
-                <h2 className='2xl:text-4xl 2xl:pr-16 pr-5 text-3xl font-semibold mb-[10px] text-start'>Play RoyallyRummy Online Now!</h2>
+                <h2 className='2xl:text-4xl 2xl:pr-16 pr-5 text-3xl font-semibold mb-[10px] text-start'>Play Royally Rummy & Earn Real Cash</h2>
                 <p className='text-[16px] leading-10 mb-10 text-start'>
-                Download our RoyallyRummy for safe and responsible gaming anytime, anywhere. It’s a subsidiary of RoyallyRummy. Start playing now!
+                Download our Royally Rummy for safe and responsible gaming anytime, anywhere. It’s a subsidiary of Royally Rummy. Start playing now!
                 </p>
                 <a href="https://xjpossmm02.ccverdcfm.com/RoyallyRummy-APK/royallyrummy-channel-30772988.apk">
                 <div className='w-64 relative'>

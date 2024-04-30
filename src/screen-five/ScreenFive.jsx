@@ -19,7 +19,7 @@ const ScreenFive = () => {
   const screenSize = useScreenSize();
   const items = [
     {
-      heading: "About Us | Royallyrummy Indian Rummy Game",
+      heading: "About Us | Royally rummy Indian Rummy Game",
       content:
         "Royally Rummy is an online rummy game that combines strategy and skills.We have more than a dozen modes,the game interface is friendly and the operation is simple,allowing you to enjoy the game easily.",
     },
@@ -79,7 +79,7 @@ const ScreenFive = () => {
         <div className="flex justify-between gap-5 px-10">
           <div className="text-white">
             <FrameWorkOne
-              heading={"About Us | Royallyrummy Indian Rummy Game"}
+              heading={"About Us | Royally rummy Indian Rummy Game"}
               para={
                 "Royally Rummy is an online rummy game that combines strategy and skills.We have more than a dozen modes,the game interface is friendly and the operation is simple,allowing you to enjoy the game easily."
               }
