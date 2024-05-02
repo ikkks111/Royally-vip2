@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://royally.vip/sitemap.xml

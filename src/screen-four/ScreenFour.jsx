@@ -11,18 +11,18 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import ourgame from '../assets/our_game.png'
-import gameOne from "../assets/mobile/Mobile_gameOne.png"
-import gameTwo from "../assets/mobile/Mobile_gameTwo.png"
+import ourgame from '../assets/our_game.webp'
+import gameOne from "../assets/mobile/Mobile_gameOne.webp"
+import gameTwo from "../assets/mobile/Mobile_gameTwo.webp"
 import gameThree from "../assets/mobile/Mobile_gameThree.png"
-import gameFour from "../assets/1.png"
-import gameFive from "../assets/2.png"
-import gameSix from "../assets/3.png"
-import gameSeven from "../assets/4.png"
-import gameEight from "../assets/5.png"
-import gameNine from "../assets/6.png"
-import gameTen from "../assets/7.png"
-import gameEleven from "../assets/8.png"
+import gameFour from "../assets/1.webp"
+import gameFive from "../assets/2.webp"
+import gameSix from "../assets/3.webp"
+import gameSeven from "../assets/4.webp"
+import gameEight from "../assets/5.webp"
+import gameNine from "../assets/6.webp"
+import gameTen from "../assets/7.webp"
+import gameEleven from "../assets/8.webp"
 
 
 const ScreenFour = () => {

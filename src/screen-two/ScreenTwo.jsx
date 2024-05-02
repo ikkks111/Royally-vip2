@@ -1,7 +1,7 @@
 import React from 'react';
-import impor from "./.././assets/import.png"
-import silver from "./.././assets/3dsilver.png"
-import samsung from "./../assets/Samsung _Galaxy_S22.png"
+import impor from "./.././assets/import.webp"
+import silver from "./.././assets/3dsilver.webp"
+import samsung from "./../assets/Samsung _Galaxy_S22.webp"
 import useScreenSize from '../hooks/useScreenSize';
 const ScreenTwo = () => {
     const screenSize = useScreenSize()

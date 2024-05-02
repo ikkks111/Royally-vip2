@@ -1,12 +1,12 @@
 import React from "react";
 import useScreenSize from "../hooks/useScreenSize";
-import screenThree from "./../assets/3_screen_background.png";
-import mobileScreenThree from "./../assets/mobile/mobile_3 screen background.png";
+import screenThree from "./../assets/3_screen_background.webp";
+import mobileScreenThree from "./../assets/mobile/mobile_3 screen background.webp";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import FrameWorkThree from "../Components/FrameWorkThree";
-import iconOne from "./../assets/directbox-receive.png";
-import iconTwo from "./../assets/cup.png";
+import iconOne from "./../assets/directbox-receive.webp";
+import iconTwo from "./../assets/cup.webp";
 
 const ScreenThree = () => {
   const screenSize = useScreenSize();

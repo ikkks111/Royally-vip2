@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import plus from "./../assets/add.png";
-import minus from "./../assets/minus.png";
+import plus from "./../assets/add.webp";
+import minus from "./../assets/minus.webp";
 
 const Accordion = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);

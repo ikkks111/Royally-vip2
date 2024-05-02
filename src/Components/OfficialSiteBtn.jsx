@@ -1,6 +1,6 @@
 import React from "react";
 import useScreenSize from "../hooks/useScreenSize";
-import global from "./../assets/global.png";
+import global from "./../assets/global.webp";
 
 const OfficialSiteBtn = () => {
   const screenSize = useScreenSize();

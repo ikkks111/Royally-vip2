@@ -1,19 +1,19 @@
 import React from "react";
-import screenOne from "../assets/section_one_bg.png";
-import mobileScreenOne from "../assets/mobile/mobile_1screen_background.png";
+import screenOne from "../assets/section_one_bg.webp";
+import mobileScreenOne from "../assets/mobile/mobile_1screen_background.webp";
 import Navbar from "../Components/Navbar";
-import bonus from "./../assets/bonus.png";
-import mobileBonus from "../assets/mobile/mobile_bonus.png";
-import android from "./../assets/android_download.png";
-import ios from "./../assets/ios_download.png";
-import model from "./../assets/hug.png";
+import bonus from "./../assets/bonus.webp";
+import mobileBonus from "../assets/mobile/mobile_bonus.webp";
+import android from "./../assets/android_download.webp";
+import ios from "./../assets/ios_download.webp";
+import model from "./../assets/hug.webp";
 import useScreenSize from "../hooks/useScreenSize";
 
 const ScreenOne = () => {
   const screenSize = useScreenSize();
   return (
     <div className="screenone relative">
-      <div className="absolute left-0 right-0 z-10">
+      <div className="absolute left-0 right-0 z-10 mt-2 md:mt-10">
         <Navbar />
       </div>
       <img

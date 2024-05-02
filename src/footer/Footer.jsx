@@ -1,10 +1,10 @@
 import React from 'react';
 
-import samsung from "./../assets/Samsung _Galaxy_S22.png"
+import samsung from "./../assets/Samsung _Galaxy_S22.webp"
 import useScreenSize from '../hooks/useScreenSize';
-import insta from "./../assets/instagram.png"
-import facebook from "./../assets/facebook.png"
-import telegram from "./../assets/telegram.png"
+import insta from "./../assets/instagram.webp"
+import facebook from "./../assets/facebook.webp"
+import telegram from "./../assets/telegram.webp"
 import { Link } from 'react-router-dom';
 const Footer = () => {
     const screenSize = useScreenSize()

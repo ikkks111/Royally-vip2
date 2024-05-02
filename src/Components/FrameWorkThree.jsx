@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "./../assets/frameBgThree.png";
+import bg from "./../assets/frameBgThree.webp";
 import useScreenSize from "../hooks/useScreenSize";
 
 const FrameWorkThree = (props) => {

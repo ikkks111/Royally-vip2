@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "./../assets/frameBgOne.png";
+import bg from "./../assets/frameBgOne.webp";
 
 const FrameWorkOne = (props) => {
   return (

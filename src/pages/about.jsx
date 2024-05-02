@@ -1,15 +1,19 @@
 import React from 'react'
 import Footer from '../footer/Footer'
+import Navbar from '../Components/Navbar'
 
 const About = () => {
   return (
     <>
-    <div className='screenseven py-4 flex flex-col justify-center items-center'>
-        <div className='container px-3 lg:px-0'>
+    <div className='screenseven flex flex-col justify-center items-center'>
+    <div className="w-full bg-[#040055] flex-row justify-center items-center py-2">
+        <Navbar />
+      </div>
+        <div className='container px-3 py-4 mt-6 lg:px-0'>
        <div className=' bg-[#040055] text-white py-5 rounded-lg w-full flex items-center justify-center'>
        <h1 className='text-[20px] lg:text-[24px] font-bold pl-5 lg:pl-0 '>Welcome to Royally Rummy Your Gateway to Exciting Gaming Adventures</h1>
        </div>
-       <p className='py-4'>At Royally Rummy, We pride ourselves on being your ultimate destination for a thrilling gaming experience. Whether you're a fan of Royally Rummy or Teen Patti, we've got you covered with a curated selection of top-notch apps that promise endless entertainment and opportunities to win big.</p>
+       <p className='py-4 mt-4'>At Royally Rummy, We pride ourselves on being your ultimate destination for a thrilling gaming experience. Whether you're a fan of Royally Rummy or Teen Patti, we've got you covered with a curated selection of top-notch apps that promise endless entertainment and opportunities to win big.</p>
         <h2 className='text-[18] lg:text-[20px] py-4 font-bold text-left'>Why Choose Royally Rummy?</h2>
         <h3 className='text-[14px] lg:text-[16px] py-4 font-bold'>Up-to-Date Information</h3>
        <p className='py-4'>While we feature the best apps, our specialists are conducting the most thorough assessments of the apps to be available for our Rummy royal online platform. What makes us unique is that we, lounging as money is time, due to hard work and unblinded expertise, ensure that all our games are unbiased, so you can save your money with a clear mind. So, what are you waiting for to get the Royal Rummy apk download today!

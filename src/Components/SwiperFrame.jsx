@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "./../assets/mobile/mobile_bg.png";
+import bg from "./../assets/mobile/mobile_bg.webp";
 import useScreenSize from "../hooks/useScreenSize";
 
 const SwiperFrame = (props) => {

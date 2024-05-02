@@ -1,9 +1,9 @@
 import React from "react";
 import useScreenSize from "../hooks/useScreenSize";
-import screenBg from "./../assets/5_screen_background.png";
-import mobileScreenBg from "./../assets/mobile/mobile_5 screen background.png";
-import golden from "./../assets/golden.png";
-import impor from "./../assets/import.png";
+import screenBg from "./../assets/5_screen_background.webp";
+import mobileScreenBg from "./../assets/mobile/mobile_5 screen background.webp";
+import golden from "./../assets/golden.webp";
+import impor from "./../assets/import.webp";
 
 const ScreenSix = () => {
   const screenSize = useScreenSize();
