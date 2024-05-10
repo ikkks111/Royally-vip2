@@ -8,9 +8,14 @@ const OfficialSiteBtn = () => {
     <div className="bg-gradient-to-r from-[#000000] to-[#252525] min-[600px]:w-[193px] rounded-[10px] md:p-[23px] p-4 flex gap-[5px] text-white">
       <img src={global} alt="global icon" />
       <p
+        // className={
+        //   screenSize <= "600"
+        //     ? "text-[10px] md:text-[16px] hidden"
+        //     : "text-[10px] md:text-[16px] max-[600px]:hidden"
+        // }
         className={
           screenSize <= "600"
-            ? "text-[10px] md:text-[16px] hidden"
+            ? "text-[20px] md:text-[16px]"
             : "text-[10px] md:text-[16px] max-[600px]:hidden"
         }
       >

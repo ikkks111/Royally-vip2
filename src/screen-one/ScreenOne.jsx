@@ -8,13 +8,14 @@ import android from "./../assets/android_download.webp";
 import ios from "./../assets/ios_download.webp";
 import model from "./../assets/hug.webp";
 import useScreenSize from "../hooks/useScreenSize";
+import NavbarMobile from "../Components/NavbarMobile";
 
 const ScreenOne = () => {
   const screenSize = useScreenSize();
   return (
     <div className="screenone relative">
       <div className="absolute left-0 right-0 z-10 mt-2 md:mt-10">
-        <Navbar />
+      {screenSize <= 1000 ? <NavbarMobile/> : <Navbar/>}
       </div>
       <img
         src={screenSize <= "600" ? mobileScreenOne : screenOne}
@@ -42,7 +43,7 @@ const ScreenOne = () => {
           <></>
         )}
         {screenSize <= "600" ? (
-          <div className="mt-[72%] flex flex-col gap-0 items-center justify-center">
+          <div className="md:mt-[72%] mt-[145%] flex flex-col gap-0 items-center justify-center">
             <img src={model} alt="" className="h-16 mx-auto" />
             <a href="https://xjpossmm02.ccverdcfm.com/RoyallyRummy-APK/royallyrummy-channel-30772988.apk">
               <button className="w-full mx-auto">
@@ -54,9 +55,11 @@ const ScreenOne = () => {
               </button>
             </a>
             <a href="https://xjpossmm02.ccverdcfm.com/RoyallyRummy-APK/royallyrummy-channel-30772988.apk">
+            {screenSize > 600 &&
               <button>
                 <img src={ios} alt="android download btn" className="-my-5" />
               </button>
+}
             </a>
           </div>
         ) : (

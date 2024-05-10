@@ -1,13 +1,16 @@
 import React from 'react'
+import useScreenSize from '../hooks/useScreenSize';
 import Footer from '../footer/Footer'
 import Navbar from '../Components/Navbar'
+import NavbarMobile from '../Components/NavbarMobile'
 
 const About = () => {
+  const screenSize = useScreenSize();
   return (
     <>
     <div className='screenseven flex flex-col justify-center items-center'>
     <div className="w-full bg-[#040055] flex-row justify-center items-center py-2">
-        <Navbar />
+         {screenSize <= 1000 ? <NavbarMobile/> : <Navbar/>}
       </div>
         <div className='container px-3 py-4 mt-6 lg:px-0'>
        <div className=' bg-[#040055] text-white py-5 rounded-lg w-full flex items-center justify-center'>
@@ -41,7 +44,6 @@ const About = () => {
         </div>
         
         </div>
-        <Footer/>
         </>
   )
 }

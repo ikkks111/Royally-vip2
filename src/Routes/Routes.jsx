@@ -6,6 +6,7 @@ import Contact from '../pages/Contact';
 import Disclaimer from '../pages/Disclaimer';
 import RefundPolicy from '../pages/RefundPolicy';
 import PrivacyPolicy from '../pages/PrivacyPolicy';
+import Footer from '../footer/Footer';
 // import Disclaimer from '../pages/Disclaimer';
 
 const Routers = () => {
@@ -22,10 +23,10 @@ const Routers = () => {
             </Route>
             <Route path="/privacy-policy" element={<PrivacyPolicy/>}>
             </Route>
-            <Route path="/refund-policy" element={<RefundPolicy/>}>
-            </Route>
+            {/* <Route path="/refund-policy" element={<RefundPolicy/>}>
+            </Route> */}
           </Routes>
-            
+          <Footer/>
         </BrowserRouter>
       );
 };
