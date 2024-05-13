@@ -18,9 +18,10 @@ const ScreenOne = () => {
       {screenSize <= 1000 ? <NavbarMobile/> : <Navbar/>}
       </div>
       <img
-        src={screenSize <= "600" ? mobileScreenOne : screenOne}
+        src={screenSize <= 600 ? mobileScreenOne : screenOne}
         alt="image of screen one"
-        className="w-full mobile-bg"
+        className="w-full h-full mobile-bg"
+        style={screenSize <= 600 ? { width: "406px", height: "970px" } : {}}
       />
       <div
         className={
@@ -43,7 +44,7 @@ const ScreenOne = () => {
           <></>
         )}
         {screenSize <= "600" ? (
-          <div className="md:mt-[72%] mt-[145%] flex flex-col gap-0 items-center justify-center">
+          <div className="md:mt-[72%] mt-[130%] flex flex-col gap-0 items-center justify-center">
             <img src={model} alt="" className="h-16 mx-auto" />
             <a href="https://xjpossmm02.ccverdcfm.com/RoyallyRummy-APK/royallyrummy-channel-30772988.apk">
               <button className="w-full mx-auto">
